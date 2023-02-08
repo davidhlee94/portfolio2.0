@@ -1,0 +1,58 @@
+.resume-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 95vh;
+  background-color: #3c6255;
+  align-items: center;
+  padding: 2vh 0 2vh 0;
+}
+
+.resume-title-container {
+  display: flex;
+  justify-content: center;
+}
+
+/* RESUME INSTRUCTION AND BUTTON */
+.resume-instruction-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.resume {
+  font-size: 2em;
+  color: #fff87c;
+  font-family: "Righteous", cursive;
+  margin: 0;
+}
+
+.resume-instruction {
+  margin: 1em 0 1em 0;
+  font-size: 1em;
+  color: white;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.download-row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 2em;
+  margin-bottom: 1em;
+}
+
+.download-button {
+  border-radius: 5px;
+  background: #fff87c;
+  border: 1px;
+  box-shadow: none;
+  height: 2em;
+}
+
+/* RESUME */
+.iframe {
+  width: 55em;
+  height: 90vh;
+}

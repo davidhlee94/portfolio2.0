@@ -1,0 +1,87 @@
+.about-container {
+  background-color: #3c6255;
+  height: 40vh;
+  padding: 0em 20vw 0 20vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.pic-and-about-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.about-pic {
+  height: auto;
+  width: 15em;
+}
+
+.pic-container {
+  grid-row: 1;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 1em;
+}
+
+.about-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.about-bio {
+  font-size: 1.1em;
+  margin: 0;
+  text-align: left;
+}
+
+.about-about {
+  font-size: 2em;
+  margin-bottom: 0.5em;
+  font-family: "Righteous", cursive;
+  color: #fff87c;
+}
+
+hr.rounded {
+  border-top: 5px solid #fff87c;
+  border-radius: 5px;
+  width: 100%;
+}
+.divider {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bi:hover {
+  color: #fff87c;
+}
+
+.icon-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 2em;
+}
+
+.icon-button {
+  border: 0;
+  height: 2.1em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 1em 0 1em;
+  background-color: #3c6255;
+}
+
+.icon-button:hover {
+  transform: scale(1.3);
+}

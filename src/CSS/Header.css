@@ -1,0 +1,27 @@
+.brand-pic-text {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.right-aligned {
+  justify-content: flex-end;
+}
+
+.color-nav {
+  background-color: black;
+}
+
+.link-text {
+  color: white;
+}
+
+.link-text:hover {
+  color: #fff87c;
+  border-radius: 1em;
+  transform: scale(1.1);
+}
+
+.brand-text {
+  color: white;
+}

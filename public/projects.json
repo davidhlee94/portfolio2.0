@@ -1,0 +1,36 @@
+[
+  {
+    "name": "Gainzville Workout Tracker",
+    "live": "https://gainzville-app.netlify.app/",
+    "git": "https://github.com/davidhlee94/workoutapp_frontend",
+    "image": "https://33.media.tumblr.com/48d5b505077d12cc479ebc2ff5d5e2ca/tumblr_nk7if66hJ21s6wlblo1_500.gif",
+    "about": "An exercise planner built with a full MERN stack. Create workout plans, add exercises, explore major muscle groups, and view videos on how to work the muscles function.",
+    "technology1": "https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white",
+    "technology2": "https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB",
+    "technology3": "https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB",
+    "technology4": "https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white",
+    "technology5": "https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white"
+  },
+  {
+    "name": "NiFT: The NFT Library",
+    "live": "https://nift-bld.netlify.app/",
+    "git": "https://github.com/davidhlee94/project3-frontend",
+    "image": "https://i.imgur.com/pNHjJFV.png",
+    "about": "A small clone of OpenSea.com built with a full MERN stack. Browse, create, and own unauthentic NFTs.",
+    "technology1": "https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white",
+    "technology2": "https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB",
+    "technology3": "https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB",
+    "technology4": "https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white",
+    "technology5": "https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white"
+  },
+  {
+    "name": "Pokémon Advantage Calculator",
+    "live": "https://davipi.netlify.app/",
+    "git": "https://github.com/Maripirs/pokemon-advantage-calculator",
+    "image": "https://i.imgur.com/mxM2KGy.png",
+    "about": "An application that takes data from a RESTful API and compares 2 Pokémon, calculating an advantage based on battle type. PokéDex library included.",
+    "technology1": "https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E",
+    "technology2": "https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB",
+    "technology3": "https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white"
+  }
+]
