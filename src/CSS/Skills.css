@@ -8,16 +8,17 @@
   .skills-icons-name {
     display: flex;
     flex-direction: column;
+    justify-content: center;
   }
 
   .skill-icon {
-    width: 5em;
+    width: 6em;
     height: auto;
     margin: 0 0 1em 0;
   }
 
   .skill-name {
-    width: 5em;
+    width: 6em;
     height: auto;
   }
 
@@ -26,6 +27,7 @@
     flex-direction: row;
     justify-content: space-evenly;
     flex-wrap: wrap;
+    padding: 1em;
   }
 
   .skill-title {
