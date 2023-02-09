@@ -13,7 +13,7 @@ function Header() {
   const location = useLocation();
 
   const isMobile = useMedia('(max-width: 767px)');
-  const offset = isMobile ? -250 : -66;
+  const offset = isMobile ? -290 : -66;
 
   return (
     <>
@@ -65,6 +65,20 @@ function Header() {
                   }
                 >
                   <div className="col text-center link-text">About</div>
+                </Nav.Link>}
+              {location.pathname === "/" &&
+                <Nav.Link
+                  as={Link}
+                  activeClass="active"
+                  to="skills"
+                  spy={true}
+                  offset={offset}
+                  className="text-decoration-none navlinks"
+                  onClick={() =>
+                    setExpanded(false)
+                  }
+                >
+                  <div className="col text-center link-text">Skills</div>
                 </Nav.Link>}
               {location.pathname === "/" &&
                 <Nav.Link

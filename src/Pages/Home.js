@@ -5,6 +5,7 @@ import Projects from "../Components/Projects";
 import Resume from "../Components/Resume";
 import About from "../Components/About";
 import { useSpring, animated } from "react-spring"
+import Skills from "../Components/Skills";
 
 function Home() {
     const [about, setAbout] = useState(null);
@@ -52,6 +53,12 @@ function Home() {
             <animated.div id="about" className="about">
                 <About />
             </animated.div>
+            <div className="divider">
+                <hr className="rounded" />
+            </div>
+            <div id="skills">
+                <Skills />
+            </div>
             <div className="divider">
                 <hr className="rounded" />
             </div>

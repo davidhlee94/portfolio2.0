@@ -1,0 +1,76 @@
+/* WEB */
+@media only screen and (min-width: 769px) {
+  .skills-container {
+    background-color: #3c6255;
+    padding: 0 19vw 0 19vw;
+  }
+
+  .skills-icons-name {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .skill-icon {
+    width: 5em;
+    height: auto;
+    margin: 0 0 1em 0;
+  }
+
+  .skill-name {
+    width: 5em;
+    height: auto;
+  }
+
+  .skill-name-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+
+  .skill-title {
+    font-size: 2em;
+    margin-bottom: 0.5em;
+    font-family: "Righteous", cursive;
+    color: #fff87c;
+  }
+}
+
+/* MOBILE */
+
+@media only screen and (max-width: 768px) {
+  .skills-container {
+    background-color: #3c6255;
+    padding: 0 5vw 0 5vw;
+  }
+
+  .skills-icons-name {
+    display: flex;
+    flex-direction: column;
+    padding: 1em;
+  }
+
+  .skill-icon {
+    width: 5em;
+    height: auto;
+    margin: 0 0 1em 0;
+  }
+
+  .skill-name {
+    width: 5em;
+    height: auto;
+  }
+
+  .skill-name-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .skill-title {
+    font-size: 2em;
+    margin-bottom: 0.5em;
+    font-family: "Righteous", cursive;
+    color: #fff87c;
+  }
+}

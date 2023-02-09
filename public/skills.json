@@ -1,0 +1,46 @@
+[
+  {
+    "name": "JavaScript",
+    "icon": "https://i.imgur.com/ELpPlZd.png"
+  },
+  {
+    "name": "React",
+    "icon": "https://i.imgur.com/94VMIST.png"
+  },
+  {
+    "name": "Node.js",
+    "icon": "https://i.imgur.com/2Hd7eWj.png"
+  },
+  {
+    "name": "MongoDB",
+    "icon": "https://i.imgur.com/4JZ9Chl.png"
+  },
+  {
+    "name": "HTML",
+    "icon": "https://i.imgur.com/EqTnLYL.png"
+  },
+  {
+    "name": "CSS",
+    "icon": "https://i.imgur.com/AmeNCp4.png"
+  },
+  {
+    "name": "GitHub",
+    "icon": "https://i.imgur.com/J2Ro8zT.png"
+  },
+  {
+    "name": "Lightroom",
+    "icon": "https://i.imgur.com/FMIsCQe.png"
+  },
+  {
+    "name": "Photoshop",
+    "icon": "https://i.imgur.com/ao1FL6N.png"
+  },
+  {
+    "name": "PostgreSQL",
+    "icon": "https://i.imgur.com/rvvAoUc.png"
+  },
+  {
+    "name": "Python",
+    "icon": "https://i.imgur.com/aHX6Mkg.png"
+  }
+]
