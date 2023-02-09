@@ -83,8 +83,7 @@
 @media only screen and (max-width: 768px) {
   .home-container {
     height: 100vh;
-    background: url("https://i.imgur.com/uCuywl0.jpg") no-repeat center center
-      fixed;
+    background: url("https://i.imgur.com/C3hxOQB.jpg");
     background-size: cover;
     display: flex;
     flex-direction: column;
