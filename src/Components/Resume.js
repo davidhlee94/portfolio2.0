@@ -14,12 +14,12 @@ const Resume = () => {
                 </h3>
             </div>
             <div className="download-row">
-                <a href="DavidLee_Resume.pdf" download="DavidLee_Resume.pdf">
+                <a href="DavidLeeSWEResume.pdf" download="DavidLeeSWEResume.pdf">
                     <button className="download-button">DOWNLOAD</button>
                 </a>
             </div>
             <iframe
-                src="https://drive.google.com/file/d/1s4QOM-63Gq_7oqQXZKcINdBcIx-881l1/preview"
+                src="https://drive.google.com/file/d/1qBCi78O1gKp9OGvohT0tEAPH4kHbGQPi/preview"
                 allow="autoplay"
                 className="iframe"
             ></iframe>
