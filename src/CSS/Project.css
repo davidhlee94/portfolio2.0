@@ -219,7 +219,7 @@
   .project-about {
     color: white;
     margin: 0;
-    width: 85vw;
+    width: 80vw;
     font-size: 0.9em;
     display: flex;
     align-items: center;
@@ -285,7 +285,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    width: 85vw;
+    width: 80vw;
     padding: 0.9em 0 0 0;
   }
 

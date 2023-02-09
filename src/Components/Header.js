@@ -1,30 +1,25 @@
-import { HashLink } from 'react-router-hash-link';
+import { Link } from "react-scroll"
 import { Nav, Navbar, Container } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { useState } from "react";
 import "../CSS/Header.css"
-import { Link } from 'react-router-dom';
+import { Link as RouterLink } from 'react-router-dom';
 import { useLocation } from 'react-router-dom';
-import { useEffect } from 'react';
+import { useMedia } from 'react-use';
+
 
 function Header() {
   const [expanded, setExpanded] = useState(false);
   const location = useLocation();
-  const [isMobile, setIsMobile] = useState(false);
 
-  useEffect(() => {
-    if (window.innerWidth < 500) {
-      setIsMobile(true);
-    } else {
-      setIsMobile(false);
-    }
-  }, []);
+  const isMobile = useMedia('(max-width: 767px)');
+  const offset = isMobile ? -250 : -66;
 
   return (
     <>
       <Navbar className="color-nav sticky-top" expand="lg" expanded={expanded}>
         <Container>
-          <Navbar.Brand as={Link} to="/">
+          <Navbar.Brand as={RouterLink} to="/">
             <div className="nav-container">
               <div className="brand-pic-text">
                 <img
@@ -45,8 +40,11 @@ function Header() {
             <Nav className="nav brackets">
               {location.pathname === "/" &&
                 <Nav.Link
-                  as={HashLink}
-                  to="#home"
+                  as={Link}
+                  activeClass="active"
+                  to="home"
+                  spy={true}
+                  offset={offset}
                   className="text-decoration-none navlinks"
                   onClick={() =>
                     setExpanded(false)
@@ -54,35 +52,50 @@ function Header() {
                 >
                   <div className="col text-center link-text ">Home</div>
                 </Nav.Link>}
-              {location.pathname === "/" && !isMobile &&
+              {location.pathname === "/" &&
                 <Nav.Link
-                  as={HashLink}
-                  to="#about"
+                  as={Link}
+                  activeClass="active"
+                  to="about"
+                  spy={true}
+                  offset={offset}
                   className="text-decoration-none navlinks"
-                  onClick={() => setExpanded(false)}
+                  onClick={() =>
+                    setExpanded(false)
+                  }
                 >
                   <div className="col text-center link-text">About</div>
                 </Nav.Link>}
-              {location.pathname === "/" && !isMobile &&
+              {location.pathname === "/" &&
                 <Nav.Link
-                  as={HashLink}
-                  to="#projects"
+                  as={Link}
+                  activeClass="active"
+                  to="projects"
+                  spy={true}
+                  offset={offset}
                   className="text-decoration-none navlinks"
-                  onClick={() => setExpanded(false)}
+                  onClick={() =>
+                    setExpanded(false)
+                  }
                 >
                   <div className="col text-center link-text">Projects</div>
                 </Nav.Link>}
-              {location.pathname === "/" && !isMobile &&
+              {location.pathname === "/" &&
                 <Nav.Link
-                  as={HashLink}
-                  to="#resume"
+                  as={Link}
+                  activeClass="active"
+                  to="resume"
+                  spy={true}
+                  offset={offset}
                   className="text-decoration-none navlinks"
-                  onClick={() => setExpanded(false)}
+                  onClick={() =>
+                    setExpanded(false)
+                  }
                 >
                   <div className="col text-center link-text">Resume</div>
                 </Nav.Link>}
               {location.pathname !== "/" && <Nav.Link
-                as={Link}
+                as={RouterLink}
                 to="/"
                 className="text-decoration-none navlinks"
                 onClick={() => setExpanded(false)}
@@ -90,7 +103,7 @@ function Header() {
                 <div className="col text-center link-text">Home</div>
               </Nav.Link>}
               <Nav.Link
-                as={Link}
+                as={RouterLink}
                 to="/photography"
                 className="text-decoration-none navlinks"
                 onClick={() => setExpanded(false)}
