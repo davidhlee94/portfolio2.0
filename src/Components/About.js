@@ -23,7 +23,11 @@ function About() {
                 </div>
                 <div className="about-section">
                     <h2 className="about-about">ABOUT</h2>
-                    <p className="about-bio">{about.bio}</p>
+                    <p className="about-bio">Hello! My name is David Lee, I am a full-stack developer with a versatile background in marketing, project management, and software development. After obtaining my BA in International Business from UC San Diego in 2017, I spent the next 5 years in the marketing and project management field. </p>
+                    <br />
+                    <p className="about-bio">My passion for technology, especially for gaming and computer building, inspired me to pursue a career in software development. I took the leap and enrolled in a full-time coding bootcamp, General Assembly's Software Engineering Immersive program. I successfully graduated in early February 2023 with a newfound skillset and a deep appreciation for the power of software development. </p>
+                    <br />
+                    <p className="about-bio">When I'm not coding, I enjoy exploring my creative side through photography and staying active through Brazilian Jiu-jitsu. I bring a unique combination of technical skills, professional experience, and a passionate approach to any project. I am eager to start the next chapter in my career and I am open to work opportunities. Thank you for your consideration!</p>
                     <div className="icon-container">
                         <a href="https://www.linkedin.com/in/iamdavidhanlee/">
                             <button className="icon-button">
