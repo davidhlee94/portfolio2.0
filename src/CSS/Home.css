@@ -1,77 +1,161 @@
-.home-container {
-  background-color: lightblue;
-  height: 100vh;
-  background: url("https://i.imgur.com/uCuywl0.jpg") no-repeat center center
-    fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-.home-name {
-  display: flex;
-  width: 100%;
-  justify-content: center;
-  align-items: center;
-  color: rgb(255, 255, 255);
-  font-size: 6em;
-  font-family: "Righteous", cursive;
-  font-weight: 700;
-}
-
-.home-brief {
-  text-align: center;
-  color: #fff87c;
-  font-size: 1.6em;
-}
-
-hr.rounded {
-  border-top: 5px solid #fff87c;
-  border-radius: 5px;
-  width: 100%;
-}
-.divider {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: #3c6255;
-  padding: 0 20vw 0 20vw;
-}
-
-.name {
-  color: #fff87c;
-  background-color: #3c6255;
-  height: 100%;
-  margin: 0;
-  padding: 1em 0 1em 0;
-}
-
-.falling {
-  animation: falling 2s ease;
-}
-
-@keyframes falling {
-  from {
-    transform: translateY(-500%);
+/* WEB */
+@media only screen and (min-width: 769px) {
+  .home-container {
+    background-color: lightblue;
+    height: 100vh;
+    background: url("https://i.imgur.com/uCuywl0.jpg") no-repeat center center
+      fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
-  to {
-    transform: translateY(0);
+
+  .home-name {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    font-size: 6em;
+    font-family: "Righteous", cursive;
+    font-weight: 700;
+  }
+
+  .home-brief {
+    text-align: center;
+    color: #fff87c;
+    font-size: 1.6em;
+  }
+
+  hr.rounded {
+    border-top: 5px solid #fff87c;
+    border-radius: 5px;
+    width: 100%;
+  }
+  .divider {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3c6255;
+    padding: 0 20vw 0 20vw;
+  }
+
+  .name {
+    color: #fff87c;
+    background-color: #3c6255;
+    height: 100%;
+    margin: 0;
+    padding: 1em 0 1em 0;
+  }
+
+  .falling {
+    animation: falling 2s ease;
+  }
+
+  @keyframes falling {
+    from {
+      transform: translateY(-500%);
+    }
+    to {
+      transform: translateY(0);
+    }
+  }
+
+  .rising {
+    animation: rising 2s ease;
+  }
+  @keyframes rising {
+    from {
+      transform: translateY(500%);
+    }
+    to {
+      transform: translateY(0);
+    }
   }
 }
 
-.rising {
-  animation: rising 2s ease;
-}
-@keyframes rising {
-  from {
-    transform: translateY(500%);
+/* MOBILE */
+@media only screen and (max-width: 768px) {
+  .home-container {
+    height: 100vh;
+    background: url("https://i.imgur.com/uCuywl0.jpg") no-repeat center center
+      fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5vw;
   }
-  to {
-    transform: translateY(0);
+
+  .home-name {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    font-size: 3em;
+    font-family: "Righteous", cursive;
+    font-weight: 700;
+  }
+
+  .home-brief {
+    text-align: center;
+    color: #fff87c;
+    font-size: 1.3em;
+  }
+
+  hr.rounded {
+    border-top: 5px solid #fff87c;
+    border-radius: 5px;
+    width: 100%;
+  }
+  .divider {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3c6255;
+    padding: 0 20vw 0 20vw;
+  }
+
+  .name {
+    color: #fff87c;
+    background-color: #3c6255;
+    height: 100%;
+    margin: 0;
+    padding: 1em 0 1em 0;
+  }
+
+  .falling {
+    animation: falling 2s ease;
+  }
+
+  @keyframes falling {
+    from {
+      transform: translateY(-500%);
+    }
+    to {
+      transform: translateY(0);
+    }
+  }
+
+  .rising {
+    animation: rising 2s ease;
+  }
+  @keyframes rising {
+    from {
+      transform: translateY(500%);
+    }
+    to {
+      transform: translateY(0);
+    }
   }
 }

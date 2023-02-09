@@ -5,10 +5,20 @@ import { useState } from "react";
 import "../CSS/Header.css"
 import { Link } from 'react-router-dom';
 import { useLocation } from 'react-router-dom';
+import { useEffect } from 'react';
 
 function Header() {
   const [expanded, setExpanded] = useState(false);
   const location = useLocation();
+  const [isMobile, setIsMobile] = useState(false);
+
+  useEffect(() => {
+    if (window.innerWidth < 500) {
+      setIsMobile(true);
+    } else {
+      setIsMobile(false);
+    }
+  }, []);
 
   return (
     <>
@@ -22,7 +32,7 @@ function Header() {
                   width="40"
                   height="40"
                 />
-                <div className="brand-text">DL</div>
+                <div className="brand-text">D L</div>
               </div>
             </div>
           </Navbar.Brand>
@@ -44,31 +54,28 @@ function Header() {
                 >
                   <div className="col text-center link-text ">Home</div>
                 </Nav.Link>}
-              {location.pathname === "/" &&
+              {location.pathname === "/" && !isMobile &&
                 <Nav.Link
                   as={HashLink}
                   to="#about"
-                  scroll={(el) => el.scrollIntoView({ behavior: 'smooth', block: 'center' })}
                   className="text-decoration-none navlinks"
                   onClick={() => setExpanded(false)}
                 >
                   <div className="col text-center link-text">About</div>
                 </Nav.Link>}
-              {location.pathname === "/" &&
+              {location.pathname === "/" && !isMobile &&
                 <Nav.Link
                   as={HashLink}
                   to="#projects"
-                  scroll={(el) => el.scrollIntoView({ behavior: 'smooth', block: 'center' })}
                   className="text-decoration-none navlinks"
                   onClick={() => setExpanded(false)}
                 >
                   <div className="col text-center link-text">Projects</div>
                 </Nav.Link>}
-              {location.pathname === "/" &&
+              {location.pathname === "/" && !isMobile &&
                 <Nav.Link
                   as={HashLink}
                   to="#resume"
-                  scroll={(el) => el.scrollIntoView({ behavior: 'smooth', block: 'center' })}
                   className="text-decoration-none navlinks"
                   onClick={() => setExpanded(false)}
                 >

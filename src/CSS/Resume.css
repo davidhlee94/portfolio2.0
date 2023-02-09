@@ -1,58 +1,124 @@
-.resume-container {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  height: 95vh;
-  background-color: #3c6255;
-  align-items: center;
-  padding: 2vh 0 2vh 0;
+/* WEB */
+@media only screen and (min-width: 769px) {
+  .resume-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 80vh;
+    background-color: #3c6255;
+    align-items: center;
+    padding: 66px 20vw 66px 20vw;
+  }
+
+  .resume-title-container {
+    display: flex;
+    justify-content: center;
+  }
+
+  /* RESUME INSTRUCTION AND BUTTON */
+  .resume-instruction-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .resume {
+    font-size: 2em;
+    color: #fff87c;
+    font-family: "Righteous", cursive;
+    margin: 0;
+  }
+
+  .resume-instruction {
+    margin: 1em 0 1em 0;
+    font-size: 1em;
+    color: white;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .download-row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 2em;
+    margin-bottom: 1em;
+  }
+
+  .download-button {
+    border-radius: 5px;
+    background: #fff87c;
+    border: 1px;
+    box-shadow: none;
+    height: 2em;
+  }
+
+  /* RESUME */
+  .iframe {
+    width: 50vw;
+    height: 51em;
+  }
 }
 
-.resume-title-container {
-  display: flex;
-  justify-content: center;
-}
+/* MOBILE */
+@media only screen and (max-width: 768px) {
+  .resume-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 80vh;
+    background-color: #3c6255;
+    align-items: center;
+    padding: 0 5vw 0 5vw;
+  }
 
-/* RESUME INSTRUCTION AND BUTTON */
-.resume-instruction-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.resume {
-  font-size: 2em;
-  color: #fff87c;
-  font-family: "Righteous", cursive;
-  margin: 0;
-}
+  .resume-title-container {
+    display: flex;
+    justify-content: center;
+  }
 
-.resume-instruction {
-  margin: 1em 0 1em 0;
-  font-size: 1em;
-  color: white;
-  display: flex;
-  justify-content: center;
-  text-align: center;
-}
+  /* RESUME INSTRUCTION AND BUTTON */
+  .resume-instruction-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .resume {
+    font-size: 2em;
+    color: #fff87c;
+    font-family: "Righteous", cursive;
+    margin: 0;
+  }
 
-.download-row {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 2em;
-  margin-bottom: 1em;
-}
+  .resume-instruction {
+    margin: 1em 0 1em 0;
+    font-size: 1em;
+    color: white;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 95vw;
+  }
 
-.download-button {
-  border-radius: 5px;
-  background: #fff87c;
-  border: 1px;
-  box-shadow: none;
-  height: 2em;
-}
+  .download-row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 2em;
+    margin-bottom: 1em;
+  }
 
-/* RESUME */
-.iframe {
-  width: 55em;
-  height: 90vh;
+  .download-button {
+    border-radius: 5px;
+    background: #fff87c;
+    border: 1px;
+    box-shadow: none;
+    height: 2em;
+  }
+
+  /* RESUME */
+  .iframe {
+    width: 95vw;
+    height: 100%;
+  }
 }

@@ -4,7 +4,7 @@
     "live": "https://gainzville-app.netlify.app/",
     "git": "https://github.com/davidhlee94/workoutapp_frontend",
     "image": "https://33.media.tumblr.com/48d5b505077d12cc479ebc2ff5d5e2ca/tumblr_nk7if66hJ21s6wlblo1_500.gif",
-    "about": "An exercise planner built with a full MERN stack. Create workout plans, add exercises, explore major muscle groups, and view videos on how to work the muscles function.",
+    "about": "An exercise planner built with a full MERN stack. Create workout plans, add exercises, explore major muscle groups, and view videos on how the muscles function.",
     "technology1": "https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white",
     "technology2": "https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB",
     "technology3": "https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB",

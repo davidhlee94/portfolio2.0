@@ -11,6 +11,7 @@ function Home() {
     const [scrollY, setScrollY] = useState(0);
     const [fade, setFade] = useSpring(() => ({ opacity: 1 }));
 
+
     const getAboutData = async () => {
         const response = await fetch("./about.json");
         const data = await response.json();
@@ -48,9 +49,9 @@ function Home() {
             <div className="divider">
                 <hr className="rounded" />
             </div>
-            <div id="about">
+            <animated.div id="about" className="about">
                 <About />
-            </div>
+            </animated.div>
             <div className="divider">
                 <hr className="rounded" />
             </div>

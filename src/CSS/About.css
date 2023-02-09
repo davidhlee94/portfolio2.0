@@ -1,87 +1,182 @@
-.about-container {
-  background-color: #3c6255;
-  height: 40vh;
-  padding: 0em 20vw 0 20vw;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
+/* WEB */
+@media only screen and (min-width: 769px) {
+  .about-container {
+    background-color: #3c6255;
+    height: 100%;
+    padding: 66px 20vw 66px 20vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .pic-and-about-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+  }
+
+  .about-pic {
+    height: auto;
+    width: 15em;
+  }
+
+  .pic-container {
+    grid-row: 1;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 1em;
+  }
+
+  .about-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .about-bio {
+    font-size: 0.9em;
+    margin: 0;
+    text-align: left;
+  }
+
+  .about-about {
+    font-size: 2em;
+    margin-bottom: 0.5em;
+    font-family: "Righteous", cursive;
+    color: #fff87c;
+  }
+
+  hr.rounded {
+    border-top: 5px solid #fff87c;
+    border-radius: 5px;
+    width: 100%;
+  }
+  .divider {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .bi:hover {
+    color: #fff87c;
+  }
+
+  .icon-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 2em;
+  }
+
+  .icon-button {
+    border: 0;
+    height: 2.1em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 1em 0 1em;
+    background-color: #3c6255;
+  }
+
+  .icon-button:hover {
+    transform: scale(1.3);
+  }
 }
 
-.pic-and-about-container {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  height: 100%;
-}
+/* MOBILE */
 
-.about-pic {
-  height: auto;
-  width: 15em;
-}
+@media only screen and (max-width: 768px) {
+  .about-container {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    background-color: #3c6255;
+    padding: 0 5vw 0 5vw;
+  }
 
-.pic-container {
-  grid-row: 1;
-  height: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  padding: 1em;
-}
+  .pic-and-about-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+  }
 
-.about-section {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
+  .about-pic {
+    height: 10em;
+  }
 
-.about-bio {
-  font-size: 1.1em;
-  margin: 0;
-  text-align: left;
-}
+  .pic-container {
+    grid-row: 1;
+    height: 10em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 1em;
+  }
 
-.about-about {
-  font-size: 2em;
-  margin-bottom: 0.5em;
-  font-family: "Righteous", cursive;
-  color: #fff87c;
-}
+  .about-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+  }
 
-hr.rounded {
-  border-top: 5px solid #fff87c;
-  border-radius: 5px;
-  width: 100%;
-}
-.divider {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
+  .about-bio {
+    font-size: 0.9em;
+    margin: 0;
+    text-align: left;
+  }
 
-.bi:hover {
-  color: #fff87c;
-}
+  .about-about {
+    font-size: 2em;
+    margin-bottom: 0.5em;
+    font-family: "Righteous", cursive;
+    color: #fff87c;
+  }
 
-.icon-container {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  margin-top: 2em;
-}
+  hr.rounded {
+    border-top: 5px solid #fff87c;
+    border-radius: 5px;
+    width: 100%;
+  }
+  .divider {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5vw 5vw 5vw 5vw;
+  }
 
-.icon-button {
-  border: 0;
-  height: 2.1em;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 0 1em 0 1em;
-  background-color: #3c6255;
-}
+  .bi:hover {
+    color: #fff87c;
+  }
 
-.icon-button:hover {
-  transform: scale(1.3);
+  .icon-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 0.5em;
+  }
+
+  .icon-button {
+    border: 0;
+    height: 2.1em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 1em 0 1em;
+    background-color: #3c6255;
+    color: #fff87c;
+  }
+
+  .icon-button:hover {
+    transform: scale(1.3);
+  }
 }
