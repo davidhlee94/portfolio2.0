@@ -4,24 +4,36 @@
     "icon": "https://i.imgur.com/ELpPlZd.png"
   },
   {
+    "name": "CSS",
+    "icon": "https://i.imgur.com/AmeNCp4.png"
+  },
+  {
     "name": "React",
     "icon": "https://i.imgur.com/94VMIST.png"
-  },
-  {
-    "name": "Node.js",
-    "icon": "https://i.imgur.com/2Hd7eWj.png"
-  },
-  {
-    "name": "MongoDB",
-    "icon": "https://i.imgur.com/4JZ9Chl.png"
   },
   {
     "name": "HTML",
     "icon": "https://i.imgur.com/EqTnLYL.png"
   },
   {
-    "name": "CSS",
-    "icon": "https://i.imgur.com/AmeNCp4.png"
+    "name": "Python",
+    "icon": "https://i.imgur.com/aHX6Mkg.png"
+  },
+  {
+    "name": "MongoDB",
+    "icon": "https://i.imgur.com/qcOCL6y.png"
+  },
+  {
+    "name": "Mongoose",
+    "icon": "https://i.imgur.com/4JZ9Chl.png"
+  },
+  {
+    "name": "Express",
+    "icon": "https://i.imgur.com/9NMrGr2.png"
+  },
+  {
+    "name": "Node.js",
+    "icon": "https://i.imgur.com/2Hd7eWj.png"
   },
   {
     "name": "GitHub",
@@ -40,7 +52,7 @@
     "icon": "https://i.imgur.com/rvvAoUc.png"
   },
   {
-    "name": "Python",
-    "icon": "https://i.imgur.com/aHX6Mkg.png"
+    "name": "SQL",
+    "icon": "https://i.imgur.com/oZ0I6NA.png"
   }
 ]
