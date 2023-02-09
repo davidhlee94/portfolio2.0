@@ -59,7 +59,7 @@
   /* MAIN CONTAINER */
   .photography-container {
     background-color: hsl(159, 24%, 31%);
-    min-height: 98vh;
+    min-height: 100vh;
   }
 
   /* PHOTOGRAPHY TITLE AND DIVIDER */
@@ -70,7 +70,7 @@
   .photography {
     font-size: 2em;
     color: #fff87c;
-    padding: 1em 25vw 0 25vw;
+    padding: 1em 5vw 0 5vw;
     font-family: "Righteous", cursive;
   }
 
