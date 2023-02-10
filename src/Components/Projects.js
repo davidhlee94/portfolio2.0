@@ -27,10 +27,10 @@ function Projects() {
                                 <img className="project-image" src={project.image} />
                                 <div className="button-container">
                                     <a href={project.git}>
-                                        <button className="button">Github</button>
+                                        <button className="button">GitHub</button>
                                     </a>
                                     <a href={project.live}>
-                                        <button className="button">Live Site</button>
+                                        <button className="button">Site</button>
                                     </a>
                                 </div>
                             </div>
