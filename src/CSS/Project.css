@@ -188,7 +188,7 @@
     align-items: center;
     background-color: #4f8270;
     border-radius: 1em;
-    height: 60vh;
+    min-height: 70vh;
     width: 90vw;
     margin-top: 1em;
   }
@@ -196,7 +196,8 @@
   .project-info {
     display: flex;
     justify-content: space-around;
-    width: 50%;
+    width: 100%;
+    height: 100%;
     flex-direction: column;
     height: 19vh;
     align-items: center;
@@ -214,6 +215,7 @@
     color: #fff87c;
     font-size: 1.2em;
     width: 80vw;
+    margin: 1em 0 0 0;
   }
 
   .project-about {
@@ -242,12 +244,11 @@
   .button {
     appearance: none;
     background-color: #fff87c;
-    border: 2px solid #fff87c;
+    border: 1px solid #fff87c;
     border-radius: 15px;
     box-sizing: border-box;
     color: rgb(39, 39, 39);
     cursor: pointer;
-    display: inline-block;
     font-family: "Montserrat", sans-serif;
     font-size: 0.9em;
     font-weight: 600;
@@ -261,6 +262,7 @@
     user-select: none;
     -webkit-user-select: none;
     touch-action: manipulation;
+    height: 5vh;
     width: 100%;
     will-change: transform;
     text-align: center;
@@ -292,7 +294,7 @@
   .technology-badge {
     margin-right: 5px;
     margin-bottom: 5px;
-    height: 1.55em;
+    height: 3.5vh;
     border-radius: 0.8em;
   }
 }
