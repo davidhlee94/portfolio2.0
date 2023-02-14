@@ -4,7 +4,7 @@
 
 
 ## ⭐ Getting Started ⭐
-Welcome to my portfolio! This is a website that fully displays my resume, experiences, developer projects, and photography. I am extremely proud of this project simply because it's a representation of all my successes during the coding bootcamp. I hope you enjoy the content!<br>
+Welcome to my portfolio! This is a website that fully displays my resume, experiences, developer projects, and photography. I am extremely proud of this project simply because it's a representation of all my successes during the coding bootcamp. I hope you enjoy the content! testing<br>
 <br> 
 
 
