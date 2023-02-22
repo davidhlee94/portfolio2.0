@@ -114,7 +114,8 @@
     user-select: none;
     -webkit-user-select: none;
     touch-action: manipulation;
-    width: 100%;
+    height: auto;
+    width: 6em;
     will-change: transform;
     text-align: center;
   }

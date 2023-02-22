@@ -9,7 +9,7 @@ const Resume = () => {
                 <h1 className="resume">RESUME</h1>
             </div>
             <iframe
-                src="https://drive.google.com/file/d/1qBCi78O1gKp9OGvohT0tEAPH4kHbGQPi/preview"
+                src="https://drive.google.com/file/d/1wPg5IijrxM_sPQEn2RdjacnUk-nGTFpf/preview"
                 allow="autoplay"
                 className="iframe"
             ></iframe>
